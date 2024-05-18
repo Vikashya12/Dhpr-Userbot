@@ -1,14 +1,14 @@
 {
     "name": "Genius-Userbot",
     "description": "Genius-Userbot is an advanced & powerful multi-featured Telegram userbot.",
-    "logo": "https://graph.org/file/292b9dfe74532e7174fd2.png",
+    "logo": "https://telegra.ph/file/dce89ea79f06caa53d734.jpg",
     "keywords": [
         "genius-userbot",
         "telegram-userbot",
         "telegram-music-bot",
         "telegram-video-bot"
     ],
-    "repository": "https://github.com/AdityaHalder/Genius-Userbot",
+    "repository": "https://github.com/Vikashya12/Dhpr-Userbot",
     "stack": "container",
     "env": {
         "API_ID": {
