@@ -1,9 +1,12 @@
-from .core import mongodb
-from typing import Dict, List, Union
+import asyncio
 
+from pyrogram import *
+from pyrogram.types import Message
 
-gdeldb = mongodb.gdel
-
+from .. import *
+from ..modules.data import (is_gdel_user,
+    get_gdel_user, get_gdel_count,
+    add_gdel_user, del_gdel_user)
 
 
 
