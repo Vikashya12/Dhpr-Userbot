@@ -1,3 +1,13 @@
+from .core import mongodb
+from typing import Dict, List, Union
+
+
+gdeldb = mongodb.gdel
+
+
+
+
+
 async def get_gdel_user() -> list:
     results = []
     async for user in gdeldb.find({"user_id": {"$gt": 0}}):
