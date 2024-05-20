@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from Rudra.database import dbb as db
+from plugin.global import dbb as db
 
 gbansdb = db.gban
 
